@@ -6,8 +6,7 @@
     "author": "Scotch",
     "dependencies": {
         "cheerio": "latest",
-        "express": "latest",
-        "puppeteer": "^1.6.2",
-        "request": "latest"
+        "fs-extra": "^7.0.0",
+        "puppeteer": "^1.6.2"
     }
 }
