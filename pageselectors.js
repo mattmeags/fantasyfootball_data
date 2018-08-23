@@ -6,16 +6,16 @@ module.exports = {
         fileName: 'allTeamOffense'
     },
     passingOffense : {
-        url: 'https://www.pro-football-reference.com/years/2017/',
+        url: 'https://www.pro-football-reference.com/years/2017/#all_passing',
         menuSelector: '#all_passing',
         csvSelector: '#csv_passing',
         fileName: 'passingOffense'
     },
     rushingOffense : {
-        url: '',
-        menuSelector: '',
-        csvSelector: '',
-        fileName: ''
+        url: 'https://www.pro-football-reference.com/years/2017/',
+        menuSelector: '#all_rushing',
+        csvSelector: '#csv_rushing',
+        fileName: 'rushingOffense'
     },
     teamDefense : {
         url: 'https://www.pro-football-reference.com/years/2017/opp.htm',
@@ -26,13 +26,13 @@ module.exports = {
     passingDefense : {
         url: 'https://www.pro-football-reference.com/years/2017/opp.htm',
         menuSelector: '#all_passing',
-        csvSelector: '',
-        fileName: ''
+        csvSelector: '#csv_passing',
+        fileName: 'passingDefense'
     },
     rushingDefense : {
         url: 'https://www.pro-football-reference.com/years/2017/opp.htm',
-        menuSelector: '',
-        csvSelector: '',
-        fileName: ''
+        menuSelector: '#all_rushing',
+        csvSelector: '#csv_rushing',
+        fileName: 'rushingDefense'
     }
 }
