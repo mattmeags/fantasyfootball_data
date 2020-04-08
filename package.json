@@ -1,11 +1,12 @@
 {
-    "name": "node-web-scrape",
+    "name": "fantasy-football-data-scraper",
     "version": "0.0.1",
-    "description": "Scrape le web.",
-    "main": "server.js",
-    "author": "Scotch",
+    "description": "Scrapes pff.com and returns creates csv files",
+    "author": "Matt Meaagher",
+    "scripts": {
+        "scrape": "node scrape.js"
+    },
     "dependencies": {
-        "cheerio": "latest",
         "fs-extra": "^7.0.0",
         "puppeteer": "^1.6.2"
     }
